@@ -1,11 +1,39 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es_CL">
 <head>
-<meta charset="UTF-8">
-<title>Saludar</title>
+	<title>Calcular IMC</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Desarrollo Ejercicio 02 de Lección 16: POO">
+	<meta name="author" content="Caterina Da Silva">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<!-- JAVASCRIPT es preferible como ultima linea en el body -->
-<script type="text/javascript" src="js/main.js"></script>
+	<header>
+		<div class="container">
+			<h1>Calculadora de IMC</h1>
+		</div>
+	</header>
+	<section id="cuerpo">
+		<div id="calculadora" class="container">
+			<form action="#" method="post">
+				<div>
+					<label for="peso">Peso:</label>
+					<input type="text" name="peso" id="peso" value="" placeholder="Ingresa tu peso en kg" tabindex="1" />
+				</div>
+				<div>
+					<label for="altura">Altura:</label>
+					<input type="text" name="altura" id="altura" value="" placeholder="Ingresa tu altura en cm" tabindex="2" />
+				</div>			
+				<div>
+					<button type="button" class="btn" value="Calcular!" tabindex="3" onclick="calculaIMC()">Calcular!</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<small>Desarrollado por <span>Caterina Da Silva</span></small>
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
