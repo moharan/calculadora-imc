@@ -10,3 +10,4 @@ function calculaIMC(){
 	peso = "";
 	altura = "";
 }
+
