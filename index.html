@@ -1,11 +1,19 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
 <head>
-<meta charset="UTF-8">
-<title>Saludar</title>
+	<meta charset="UTF-8">
+	<title>Calcular IMC</title>
 </head>
-<body>
-<!-- JAVASCRIPT es preferible como ultima linea en el body -->
-<script type="text/javascript" src="js/main.js"></script>
+<body align="center">
+	<h1>Calcula tu índice de masa corporal</h1>
+	<img src="http://naturhouse.es/wp-content/uploads/imc-ilus01.png" align="center" >
+	<br><label align = "center">Ingresa tu peso en kg</label>
+	<input id="kg">
+	<label>Ingresa tu estatura en cm</label>
+	<input id="cm">
+	<button class="button" onclick="imcCalcular(); return false" type="submit"> Calcular </button>
+	<br><p id="texto"></p>
+	<script src="js/main.js"></script>
 </body>
 </html>
+
+
